@@ -7,7 +7,7 @@
     <% else %>
       Ticketee
     <% end %>
-</title>
+  </title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -18,6 +18,8 @@
     <%= value %>
   </div>
 <% end %>
+<h1><%= link_to "Ticketee", root_path %></h1>
+
 <%= yield %>
 
 </body>
